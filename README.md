@@ -18,7 +18,7 @@ Kernel version: 4.6.0
 
 
 #Compilation guide:
-- Just simply copy .config to /usr/src/linux-X-X-X/
+- Just simply copy config to /usr/src/linux-X-X-X/.config
 - You can edit configuration with make nconfig -j5
 - make -j5
 - make modules_install
