@@ -5,15 +5,16 @@ Kernel version: 4.6.0
 
 #Working:
 - Chipset
+- Graphic (as module)
+- Graphic RC6pp (powersaving option)
 - Wifi (as module)
 - Memory Card
 - HD Sound System
-- Sound via HDMI/DisplayPort
+- Sound via HDMI/DisplayPort & DockStation
 - Battery optimalisation
 - Microphone
 
 #Not working: 
-- Sound via DockStation
 - Camera
 
 
@@ -31,3 +32,6 @@ know the risk and still want to copy it here u are.
 
 - copy vmlizuz-X.X.X-gentoo to /boot/
 
+#Turning on RC6pp
+- copy gpu.conf to /etc/modprobe.d/
+- reboot
