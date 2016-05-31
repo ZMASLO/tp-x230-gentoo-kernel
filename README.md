@@ -11,7 +11,7 @@ Kernel version: 4.6.0
 - Memory Card
 - HD Sound System
 - Sound via HDMI/DisplayPort & DockStation
-- Battery optimalisation
+- Battery
 - Microphone
 
 #Not working: 
